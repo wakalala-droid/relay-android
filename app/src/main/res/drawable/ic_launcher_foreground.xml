@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher mark: a white dot with lime signal arcs, kept inside the adaptive icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFF2F4F7"
+        android:pathData="M54,47a7,7 0,1 1,0 14a7,7 0,1 1,0 -14z" />
+    <path
+        android:strokeColor="#FFB6F35C"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M65.31,42.69A16,16 0,0 1,65.31 65.31M42.69,65.31A16,16 0,0 1,42.69 42.69" />
+    <path
+        android:strokeColor="#FFB6F35C"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M73.8,34.2A28,28 0,0 1,73.8 73.8M34.2,73.8A28,28 0,0 1,34.2 34.2" />
+</vector>
