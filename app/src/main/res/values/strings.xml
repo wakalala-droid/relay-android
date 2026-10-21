@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Relay</string>
     <string name="listener_label">Relay: send alerts to your second phone</string>
+    <string name="inbox_label">Inbox</string>
 </resources>

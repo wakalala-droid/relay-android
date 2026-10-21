@@ -294,6 +294,13 @@ class MainActivity : Activity() {
             ui.matchWrap(24)
         )
 
+        root.addView(
+            ui.button("Open inbox", primary = false) {
+                startActivity(Intent(this, InboxActivity::class.java))
+            },
+            ui.matchWrap(16)
+        )
+
         // Pairing code
         val pair = ui.card()
         pair.addView(ui.eyebrow("Pairing code"))

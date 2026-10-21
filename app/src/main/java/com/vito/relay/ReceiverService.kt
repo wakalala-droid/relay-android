@@ -168,6 +168,7 @@ class ReceiverService : Service() {
         val ageMs = if (relayedAt > 0) System.currentTimeMillis() - relayedAt else 0L
 
         Alerts.show(this, event, ageMs)
+        Inbox.record(this, event)
         if (event.kind != Relayed.DISMISS) cfg.log(Config.RECEIVED, event.app, event.summary())
     }
 
